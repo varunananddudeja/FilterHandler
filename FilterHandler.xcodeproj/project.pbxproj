@@ -14,6 +14,7 @@
 		8B61663D1F3AD20A00AEBFBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B61663B1F3AD20A00AEBFBF /* LaunchScreen.storyboard */; };
 		8B6166481F3AD20A00AEBFBF /* FilterHandlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6166471F3AD20A00AEBFBF /* FilterHandlerTests.swift */; };
 		8B6166531F3AD20A00AEBFBF /* FilterHandlerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6166521F3AD20A00AEBFBF /* FilterHandlerUITests.swift */; };
+		8B6166611F3AD22E00AEBFBF /* FilterHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6166601F3AD22E00AEBFBF /* FilterHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8B61664E1F3AD20A00AEBFBF /* FilterHandlerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FilterHandlerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B6166521F3AD20A00AEBFBF /* FilterHandlerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterHandlerUITests.swift; sourceTree = "<group>"; };
 		8B6166541F3AD20A00AEBFBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B6166601F3AD22E00AEBFBF /* FilterHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				8B6166391F3AD20A00AEBFBF /* Assets.xcassets */,
 				8B61663B1F3AD20A00AEBFBF /* LaunchScreen.storyboard */,
 				8B61663E1F3AD20A00AEBFBF /* Info.plist */,
+				8B6166601F3AD22E00AEBFBF /* FilterHandler.swift */,
 			);
 			path = FilterHandler;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B6166351F3AD20A00AEBFBF /* ViewController.swift in Sources */,
+				8B6166611F3AD22E00AEBFBF /* FilterHandler.swift in Sources */,
 				8B6166331F3AD20A00AEBFBF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
